@@ -1,7 +1,7 @@
 # Curate-Videos-for-kids
 ------
 ## Introduction:
-The Application is motivated towards curating the youtube videos for your kids(under 12 years)! 
+The Application is motivated towards curating the youtube videos for your kids(under 12 years)! This application is made using pure javascript and no web frameworks used.
 
 Key highlights:
   1. Ability to Add Description, type and link of the youtube video
