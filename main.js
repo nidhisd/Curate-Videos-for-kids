@@ -45,7 +45,7 @@ function saveVideos(e) {
 function deleteVideo(id) {
     var videos = JSON.parse(localStorage.getItem('videos'));
 
-    for ( var i=0; i < videos.length; i++) {
+    for ( var i=0; i < videos.length-1 ; i++) {
         if (videos[i].id == id) {
             videos.splice(i,1);
             localStorage.setItem('videos', JSON.stringify(videos));
